@@ -9,6 +9,15 @@ updates:
     - "pr/no-changelog"
   schedule:
     interval: daily
+- package-ecosystem: gomod
+  open-pull-requests-limit: 10
+  directory: "/sdk"
+  labels:
+    - "go"
+    - "dependencies"
+    - "pr/no-changelog"
+  schedule:
+    interval: daily
 - package-ecosystem: npm 
   open-pull-requests-limit: 5
   directory: "/website"
